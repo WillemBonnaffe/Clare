@@ -16,8 +16,8 @@
 </head>
 <body>
 	<div class="logo"><img src="images/Zylem_icon.png" alt="logo"  width="200"></div>
-	<canvas id="bar-chart" width="40" height="20"></canvas>
-	<canvas id="bar-chart2" width="40" height="20"></canvas>
+	<canvas id="bar-chart" width="400" height="200"></canvas>
+	<canvas id="bar-chart2" width="400" height="200"></canvas>
 	<script>
 
 var data;
@@ -25,7 +25,7 @@ var labels_for_chart = [];
 var data_for_chart = [];
 	$.ajax({
 	  type: "GET",  
-	  url: "docs/database/predictions_.csv",
+	  url: "docs/database/PSF.csv",
 	  dataType: "text",
 	async: false,
 	  success: function(response)  
