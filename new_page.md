@@ -1,6 +1,6 @@
 layout: page
 title: "New page"
-permalink: /URL-PATH/
+permalink: /about/
 
 
 ## Welcome to GitHub Pages
