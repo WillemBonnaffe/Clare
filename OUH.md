@@ -13,6 +13,7 @@
             function makeChart(days) {
                 var dayLabel = days.map(function(d){return d.time});
                 var dayTemp = days.map(function(d) {return d.Y});
+                var dayPred = days.map(function(d) {return d.Ybar});
                 //Set Min for better visiable range
                 var minX = d3.min(dayTemp);
                 minX -= 10;
@@ -23,7 +24,7 @@
                         labels: dayLabel,
                         datasets: [
                             {
-                                data: dayTemp
+                                data: dayTemp, dayPred
                             }
                         ]
                     },
