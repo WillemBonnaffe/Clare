@@ -24,7 +24,8 @@
                         labels: dayLabel,
                         datasets: [
                             {
-                                data: dayTemp
+                                data: dayTemp,
+								backgroundColor: '#A0EFFD',
                             },
 							{
 								data: dayPred,
