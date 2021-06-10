@@ -1,73 +1,52 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>v0.1</title>
-    <script src="package/dist/Chart.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
-    <style>canvas {
-	display: block;
-	max-width: 800px;
-	margin: 60px auto;
-} 
-	  .logo{margin: 10px auto 20px;
-    display: block; text-align: center;}
-    </style>
-</head>
-<body>
-	<div class="logo"><img src="images/Zylem_icon.png" alt="logo"  width="200"></div>
-	<canvas id="bar-chart" width="400" height="200"></canvas>
-	<canvas id="bar-chart2" width="400" height="200"></canvas>
-	<script>
-
-var data;
-var labels_for_chart = [];
-var data_for_chart = [];
-	$.ajax({
-	  type: "GET",  
-	  url: "docs/database/PSF.csv",
-	  dataType: "text",
-	async: false,
-	  success: function(response)  
-	  {
-		var options={"separator" : ";"};  
-	    data = $.csv.toArrays(response,options);
-	    $.each(data, function(index,row){if(index > 0){labels_for_chart.push(row[0]); data_for_chart.push(row[5]*100)}});
-	  }
-	  });
-var bar_ctx = document.getElementById('bar-chart').getContext('2d');
-
-var purple_orange_gradient = bar_ctx.createLinearGradient(0, 0, 0, 600);
-purple_orange_gradient.addColorStop(0, 'red');
-purple_orange_gradient.addColorStop(1, 'green');
-
-var bar_chart = new Chart(bar_ctx, {
-    type: 'bar',
-    data: {
-        labels: labels_for_chart,
-        datasets: [{
-            label: 'Probability of stoppage: next 7 days',
-            data: data_for_chart,
-						backgroundColor: purple_orange_gradient,
-						hoverBackgroundColor: purple_orange_gradient,
-						hoverBorderWidth: 2,
-						hoverBorderColor: 'purple'
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true,
-		    max:100
-                }
-            }],
-	    xAxes: [{ticks:{minRotation:90,maxRotation:90,autoSkip:false}}]
-        }
-    }
-});
-
-	</script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Temperature Data Bar Graph</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+    </head>
+    <body>
+        <canvas id="chart"></canvas>
+        <script>
+            var file = 'docs/database/tmp.csv';
+            d3.csv(file).then(makeChart);
+            function makeChart(days) {
+                var dayLabel = days.map(function(d){return d.Day});
+                var dayTemp = days.map(function(d) {return d.Temperature});
+                //Set Min for better visiable range
+                var minX = d3.min(dayTemp);
+                minX -= 10;
+                
+                var chart = new Chart('chart', {
+                    type: 'horizontalBar',
+                    data: {
+                        labels: dayLabel,
+                        datasets: [
+                            {
+                                data: dayTemp
+                            }
+                        ]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: file
+                        },
+                        legend: {
+                            display: false
+                        },
+                        scales: {
+                            xAxes: [
+                                {
+                                    ticks: {
+                                        suggestedMin: minX,
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                });
+            }
+        </script>
+    </body>
 </html>
-
