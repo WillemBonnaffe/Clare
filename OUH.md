@@ -27,7 +27,7 @@
                                 data: dayTemp
                             },
 							{
-								data: dayPred
+								data: dayPred,
 								backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
 							}
                         ]
