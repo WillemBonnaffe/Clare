@@ -18,7 +18,7 @@
                 minX -= 10;
                 
                 var chart = new Chart('chart', {
-                    // type: 'horizontalBar',
+                    type: 'horizontalBar',
                     data: {
                         labels: dayLabel,
                         datasets: [
