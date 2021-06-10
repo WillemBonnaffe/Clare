@@ -3,7 +3,6 @@
         <meta charset="UTF-8">
         <title>Temperature Data Bar Graph</title>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-        <script type="text/javascript" src="https://raw.githubusercontent.com/chartjs/Chart.js/master/docs/scripts/utils.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
     </head>
     <body>
@@ -29,7 +28,7 @@
                             },
 							{
 								data: dayPred,
-								backgroundColor: Utils.transparentize(Utils.CHART_COLORS.red, 0.5),
+								backgroundColor: #001247,
 							}
                         ]
                     },
