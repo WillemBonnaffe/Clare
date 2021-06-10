@@ -15,7 +15,7 @@
     
 <?php
 echo "<html><body><table>\n\n";
-$f = fopen("so-csv.csv", "r");
+$f = fopen("docs/predictions.csv", "r");
 while (($line = fgetcsv($f)) !== false) {
         echo "<tr>";
         foreach ($line as $cell) {
