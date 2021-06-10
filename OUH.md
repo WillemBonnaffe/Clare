@@ -1,19 +1,19 @@
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="ZYLEM">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.17.2, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
-
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>v0.1</title>
+    <script src="package/dist/Chart.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    <style>canvas {
+	display: block;
+	max-width: 800px;
+	margin: 60px auto;
+} 
+	  .logo{margin: 10px auto 20px;
+    display: block; text-align: center;}
+    </style>
+</head>
 <body>
 	<div class="logo"><img src="images/Zylem_icon.png" alt="logo"  width="200"></div>
 	<canvas id="bar-chart" width="400" height="200"></canvas>
