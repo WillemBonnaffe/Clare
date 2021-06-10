@@ -28,7 +28,7 @@
                             },
 							{
 								data: dayPred,
-								backgroundColor: #001247,
+								backgroundColor: '#001247',
 							}
                         ]
                     },
