@@ -8,11 +8,11 @@
     <body>
         <canvas id="chart"></canvas>
         <script>
-            var file = 'docs/database/tmp.csv';
+            var file = 'docs/database/predictions_.csv';
             d3.csv(file).then(makeChart);
             function makeChart(days) {
-                var dayLabel = days.map(function(d){return d.Day});
-                var dayTemp = days.map(function(d) {return d.Temperature});
+                var dayLabel = days.map(function(d){return d.time});
+                var dayTemp = days.map(function(d) {return d.Y});
                 //Set Min for better visiable range
                 var minX = d3.min(dayTemp);
                 minX -= 10;
