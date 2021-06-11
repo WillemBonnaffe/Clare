@@ -36,7 +36,7 @@
                     options: {
                         title: {
                             display: true,
-                            text: file
+                            text: 'Predictions of prescriptions at OUH' 
                         },
                         legend: {
                             display: false
