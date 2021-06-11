@@ -36,10 +36,10 @@
                     options: {
                         title: {
                             display: true,
-                            text: 'Predictions of prescriptions at OUH' 
+                            text: 'Predictions of prescriptions at OUH',
                         },
                         legend: {
-                            display: false
+                            display: true
                         },
                         scales: {
                             xAxes: [
