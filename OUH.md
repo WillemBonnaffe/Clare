@@ -9,6 +9,7 @@
         <canvas id="chart"></canvas>
         <script>
             var file = 'docs/database/predictions_.csv';
+            var title = 'Predictions of prescriptions at OUH';
             d3.csv(file).then(makeChart);
             function makeChart(days) {
                 var dayLabel = days.map(function(d){return d.time});
@@ -36,7 +37,7 @@
                     options: {
                         title: {
                             display: true,
-                            text: 'Predictions of prescriptions at OUH',
+                            text: title,
                         },
                         legend: {
                             display: true
