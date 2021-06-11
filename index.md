@@ -9,6 +9,7 @@
         <canvas id="chart"></canvas>
         <script>
             var file = 'docs/database/predictions_.csv';
+            var title = 'Predictions of prescriptions at OUH';
             d3.csv(file).then(makeChart);
             function makeChart(days) {
                 var dayLabel = days.map(function(d){return d.time});
@@ -24,10 +25,12 @@
                         labels: dayLabel,
                         datasets: [
                             {
+								label: 'Actual',
                                 data: dayTemp,
 								backgroundColor: '#A0EFFD',
                             },
 							{
+								label: 'Predicted',
 								data: dayPred,
 								backgroundColor: '#DAA0FD',
 							}
@@ -36,10 +39,10 @@
                     options: {
                         title: {
                             display: true,
-                            text: file
+                            text: title,
                         },
                         legend: {
-                            display: false
+                            display: true
                         },
                         scales: {
                             xAxes: [
