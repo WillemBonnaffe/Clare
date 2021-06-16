@@ -6,6 +6,17 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
     </head>
     <body>
+	<form action="/action_page.php">
+  		<label for="cars">Choose a car:</label>
+  		<select name="cars" id="cars">
+    			<option value="volvo">Volvo</option>
+    			<option value="saab">Saab</option>
+    			<option value="opel">Opel</option>
+    			<option value="audi">Audi</option>
+  		</select>
+  		<br><br>
+  	<input type="submit" value="Submit">
+	</form>
         <canvas id="chart"></canvas>
         <script>
             var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
