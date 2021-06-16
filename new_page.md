@@ -9,8 +9,16 @@
 	<form>
   		<label for="cars">Choose a drug:</label>
   		<select name="cars" id="cars" onchange="updateChart()">
+    			<option value="0103050P0AAAAAA">0103050P0AAAAAA</option>
+			<option value="0106040M0BCACAA">0106040M0BCACAA</option>
     			<option value="0202020L0AABDBD">0202020L0AABDBD</option>
-    			<option value="0401010ADAAAAAA">0401010ADAAAAAA</option>
+			<option value="0202030S0AAATAT">0202030S0AAATAT</option>
+			<option value="0304010W0AAALAL">0304010W0AAALAL</option>
+			<option value="0401010ADAAAAAA">0401010ADAAAAAA</option>
+			<option value="0401010ADBBAAAA">0401010ADBBAAAA</option>
+			<option value="0401010Z0AAAAAA">0401010Z0AAAAAA</option>
+			<option value="0401010Z0AAACAC">0401010Z0AAACAC</option>
+			<option value="0401020K0AAAHAH">0401020K0AAAHAH</option>			
   		</select>
   		<br><br>
 	</form>
