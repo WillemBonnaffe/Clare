@@ -18,7 +18,8 @@
 			<option value="0401010ADBBAAAA">0401010ADBBAAAA</option>
 			<option value="0401010Z0AAAAAA">0401010Z0AAAAAA</option>
 			<option value="0401010Z0AAACAC">0401010Z0AAACAC</option>
-			<option value="0401020K0AAAHAH">0401020K0AAAHAH</option>			
+			<option value="0401020K0AAAHAH">0401020K0AAAHAH</option>
+			<input type="submit" value="Submit" onclick="updateChart()">
   		</select>
   		<br><br>
 	</form>
