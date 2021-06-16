@@ -8,7 +8,7 @@
     <body>
 	<form>
   		<label for="cars">Choose a car:</label>
-  		<select name="cars" id="cars" onchange="makeChart()">
+  		<select name="cars" id="cars" onchange="updateChart()">
     			<option value="volvo">Volvo</option>
     			<option value="saab">Saab</option>
     			<option value="opel">Opel</option>
