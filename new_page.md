@@ -24,9 +24,9 @@
 	</form>
         <canvas id="chart"></canvas>
         <script>
-		// var tmp = document.getElementById('cars').value;
-		// var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');			
-		// d3.csv(file).then(makeChart);			
+		var tmp = document.getElementById('cars').value;
+		var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');			
+		d3.csv(file).then(makeChart);			
 	
 		function updateChart()
 		{
