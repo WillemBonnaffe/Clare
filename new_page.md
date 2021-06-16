@@ -20,12 +20,13 @@
         <canvas id="chart"></canvas>
         <script>
             var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
-	    var test = document.getElementById('cars').value;
-	    var title = test;
-            // var title = 'Predictions of prescriptions at OUH';
+	   
 		
             d3.csv(file).then(makeChart);
             function makeChart(days) {
+		var test = document.getElementById('cars').value;
+	        var title = test;
+	        // var title = 'Predictions of prescriptions at OUH';
                 var dayLabel = days.map(function(d){return d.time});
                 var dayTemp = days.map(function(d) {return d.Y});
                 var dayPred = days.map(function(d) {return d.Ybar});
