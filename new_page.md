@@ -26,17 +26,7 @@
         <script>
 		var tmp = document.getElementById('cars').value;
 		var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');			
-		d3.csv(file).then(makeChart);			
-	
-		function updateChart()
-		{
-			var tmp = document.getElementById('cars').value;
-			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');
-			// var chart = document.getElementById('chart');	
-			chart.data.datasets.pop();
-			chart.update();
-			d3.csv(file).then(makeChart);			
-		};
+		d3.csv(file).then(makeChart);					
 				
 		function makeChart(days) {
 				var test = document.getElementById('cars').value;
@@ -85,6 +75,15 @@
 				}
 			    }
 			});
+			function updateChart()
+			{
+				var tmp = document.getElementById('cars').value;
+				var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');
+				// var chart = document.getElementById('chart');	
+				chart.data.datasets.pop();
+				chart.update();
+				d3.csv(file).then(makeChart);			
+			};
 		    };
         </script>
     </body>
