@@ -39,7 +39,8 @@
 				// Set Min for better visiable range
 				var minX = d3.min(dayTemp);
 				minX -= 10;
-	
+		
+				chart.destroy();
 				var chart = new Chart('chart', {
 			    		type: 'bar',
 					    data: {
