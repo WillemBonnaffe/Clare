@@ -33,7 +33,7 @@
 			var tmp = document.getElementById('cars').value;
 			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');	
 			// var tmp = document.getElementById('chart');
-			resetCanvas();
+			// resetCanvas();
 			d3.csv(file).then(makeChart);			
 		};
 				
