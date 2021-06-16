@@ -19,7 +19,8 @@
         <script>
 		function updateChart()
 		{
-			var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
+			var tmp = document.getElementById('cars').value;
+			var file = 'docs/database/individual_drugs/'+tmp+'.csv';
 			d3.csv(file).then(makeChart);
 			function makeChart(days) {
 				var test = document.getElementById('cars').value;
