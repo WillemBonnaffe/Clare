@@ -18,7 +18,7 @@
                 //Set Min for better visiable range
                 var minX = d3.min(dayTemp);
                 minX -= 10;
-                
+                 
                 var chart = new Chart('chart', {
                     type: 'bar',
                     data: {
@@ -55,6 +55,18 @@
                         }
                     }
                 });
+
+				const actions = [
+				  {
+				    name: 'Randomize',
+				    handler(chart) {
+				      chart.data.datasets.forEach(dataset => {
+				        dataset.data = Utils.numbers({count: chart.data.labels.length, min: -100, max: 100});
+				      });
+				      chart.update();
+				    }
+				  },];
+
             }
         </script>
     </body>
