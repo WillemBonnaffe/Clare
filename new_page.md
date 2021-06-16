@@ -6,7 +6,7 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
     </head>
     <body>
-	<form action="/action_page.php" method="POST">
+	<form action="/action_page.php">
   		<label for="cars">Choose a car:</label>
   		<select name="cars" id="cars">
     			<option value="volvo">Volvo</option>
@@ -20,7 +20,10 @@
         <canvas id="chart"></canvas>
         <script>
             var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
-            var title = 'Predictions of prescriptions at OUH';
+	    var test = document.getElementById('cars').value;
+	    var title = test;
+            // var title = 'Predictions of prescriptions at OUH';
+		
             d3.csv(file).then(makeChart);
             function makeChart(days) {
                 var dayLabel = days.map(function(d){return d.time});
