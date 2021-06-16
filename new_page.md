@@ -8,7 +8,7 @@
     <body>
         <canvas id="chart"></canvas>
         <script>
-            var file = 'docs/database/individual_drugs/0103050P0AAAAAA.csv';
+            var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
             var title = 'Predictions of prescriptions at OUH';
             d3.csv(file).then(makeChart);
             function makeChart(days) {
