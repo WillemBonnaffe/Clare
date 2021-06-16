@@ -31,10 +31,10 @@
 		function updateChart()
 		{
 			var tmp = document.getElementById('cars').value;
-			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');	
-			// var tmp = document.getElementById('chart');
-			const context = canvas.getContext('2d');
-			context.clearRect(0, 0, canvas.width, canvas.height);
+			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');
+			var chart = document.getElementById('chart');	
+			chart.data.datasets.pop();
+			chart.update();
 			d3.csv(file).then(makeChart);			
 		};
 				
