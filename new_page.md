@@ -27,10 +27,12 @@
 		function updateChart()
 		{
 			var tmp = document.getElementById('cars').value;
-			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');
-			chart.destroy();
-			d3.csv(file).then(makeChart);		
-			function makeChart(days) {
+			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');			
+			d3.csv(file).then(makeChart);
+			
+		}
+		
+		function makeChart(days) {
 				var test = document.getElementById('cars').value;
 			        var title = test;
 				// var title = 'Predictions of prescriptions at OUH';
@@ -78,7 +80,6 @@
 			    }
 			});
 		    }
-		}
         </script>
     </body>
 </html>
