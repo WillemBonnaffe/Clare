@@ -25,6 +25,7 @@
 	</form>
         <canvas id="chart"></canvas>
         <script>
+		var chart;
 		var tmp = document.getElementById('cars').value;
 		var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');			
 		d3.csv(file).then(makeChart);				
@@ -39,7 +40,7 @@
 				var minX = d3.min(dayTemp);
 				minX -= 10;
 					
-				var chart = new Chart('chart', {
+				chart = new Chart('chart', {
 			    		type: 'bar',
 					    data: {
 						labels: dayLabel,
@@ -84,6 +85,7 @@
 			// var chart = document.getElementById('chart');	
 			// chart.data.datasets.pop();
 			// chart.update();
+			chart.destroy();
 			d3.csv(file).then(makeChart);			
 		};		
         </script>
