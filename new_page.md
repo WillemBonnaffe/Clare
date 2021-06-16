@@ -7,13 +7,12 @@
     </head>
     <body>
 	<form>
-  		<label for="cars">Choose a car:</label>
+  		<label for="cars">Choose a drug:</label>
   		<select name="cars" id="cars" onchange="updateChart()">
     			<option value="0202020L0AABDBD">0202020L0AABDBD</option>
     			<option value="0401010ADAAAAAA">0401010ADAAAAAA</option>
   		</select>
   		<br><br>
-  	<input type="submit" value="Submit">
 	</form>
         <canvas id="chart"></canvas>
         <script>
