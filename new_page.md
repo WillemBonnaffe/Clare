@@ -9,10 +9,8 @@
 	<form>
   		<label for="cars">Choose a car:</label>
   		<select name="cars" id="cars" onchange="updateChart()">
-    			<option value="volvo">Volvo</option>
-    			<option value="saab">Saab</option>
-    			<option value="opel">Opel</option>
-    			<option value="audi">Audi</option>
+    			<option value="0202020L0AABDBD">0202020L0AABDBD</option>
+    			<option value="0401010ADAAAAAA">0401010ADAAAAAA</option>
   		</select>
   		<br><br>
   	<input type="submit" value="Submit">
