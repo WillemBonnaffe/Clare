@@ -6,7 +6,7 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
     </head>
     <body>
-	<form>
+	<form action="/action_page.php" method="POST">
   		<label for="cars">Choose a car:</label>
   		<select name="cars" id="cars">
     			<option value="volvo">Volvo</option>
