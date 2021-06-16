@@ -29,6 +29,7 @@
 			var tmp = document.getElementById('cars').value;
 			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');
 			d3.csv(file).then(makeChart);
+			chart.destroy();
 			function makeChart(days) {
 				var test = document.getElementById('cars').value;
 			        var title = test;
@@ -39,8 +40,7 @@
 				// Set Min for better visiable range
 				var minX = d3.min(dayTemp);
 				minX -= 10;
-		
-				chart.destroy();
+					
 				var chart = new Chart('chart', {
 			    		type: 'bar',
 					    data: {
