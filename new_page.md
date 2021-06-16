@@ -19,58 +19,59 @@
 	</form>
         <canvas id="chart"></canvas>
         <script>
-            var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
-	   
-		
-            d3.csv(file).then(makeChart);
-            function makeChart(days) {
-		var test = document.getElementById('cars').value;
-	        var title = test;
-	        // var title = 'Predictions of prescriptions at OUH';
-                var dayLabel = days.map(function(d){return d.time});
-                var dayTemp = days.map(function(d) {return d.Y});
-                var dayPred = days.map(function(d) {return d.Ybar});
-                // Set Min for better visiable range
-                var minX = d3.min(dayTemp);
-                minX -= 10;
-                 
-                var chart = new Chart('chart', {
-                    type: 'bar',
-                    data: {
-                        labels: dayLabel,
-                        datasets: [
-                            {
-								label: 'Actual',
-                                data: dayTemp,
-								backgroundColor: '#A0EFFD',
-                            },
+		function updateChart()
+		{
+			var file = 'docs/database/individual_drugs/0202020L0AABDBD.csv';
+			d3.csv(file).then(makeChart);
+			function makeChart(days) {
+				var test = document.getElementById('cars').value;
+			        var title = test;
+				// var title = 'Predictions of prescriptions at OUH';
+				var dayLabel = days.map(function(d){return d.time});
+				var dayTemp = days.map(function(d) {return d.Y});
+				var dayPred = days.map(function(d) {return d.Ybar});
+				// Set Min for better visiable range
+				var minX = d3.min(dayTemp);
+				minX -= 10;
+	
+				var chart = new Chart('chart', {
+			    		type: 'bar',
+					    data: {
+						labels: dayLabel,
+						datasets: [
+						    {
+							label: 'Actual',
+							data: dayTemp,
+							backgroundColor: '#A0EFFD',
+							},
 							{
 								label: 'Predicted',
 								data: dayPred,
 								backgroundColor: '#DAA0FD',
 							}
-                        ]
-                    },
-                    options: {
-                        title: {
-                            display: true,
-                            text: title,
-                        },
-                        legend: {
-                            display: true
-                        },
-                        scales: {
-                            xAxes: [
-                                {
-                                    ticks: {
-                                        suggestedMin: minX,
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                });
-            }
+						]
+						},
+					options: {
+						title: {
+				    		display: true,
+						    text: title,
+					},
+					legend: {
+						    display: true
+					},
+					scales: {
+					    xAxes: [
+						{
+						    ticks: {
+							suggestedMin: minX,
+					    }
+					}
+				    ]
+				}
+			    }
+			});
+		    }
+		}
         </script>
     </body>
 </html>
