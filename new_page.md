@@ -33,7 +33,8 @@
 			var tmp = document.getElementById('cars').value;
 			var file = 'docs/database/individual_drugs/'.concat(tmp,'.csv');	
 			// var tmp = document.getElementById('chart');
-			// resetCanvas();
+			const context = canvas.getContext('2d');
+			context.clearRect(0, 0, canvas.width, canvas.height);
 			d3.csv(file).then(makeChart);			
 		};
 				
@@ -85,21 +86,6 @@
 			    }
 			});
 		    };
-		
-		var resetCanvas = function () {
-  			$('#results-graph').remove(); // this is my <canvas> element
-			  $('#graph-container').append('<canvas id="results-graph"><canvas>');
-			  canvas = document.querySelector('#results-graph'); // why use jQuery?
-			  ctx = canvas.getContext('2d');
-			  ctx.canvas.width = $('#graph').width(); // resize to parent width
-			  ctx.canvas.height = $('#graph').height(); // resize to parent height
-
-			  var x = canvas.width/2;
-			  var y = canvas.height/2;
-			  ctx.font = '10pt Verdana';
-			  ctx.textAlign = 'center';
-			  ctx.fillText('This text is centered on the canvas', x, y);
-			};
         </script>
     </body>
 </html>
