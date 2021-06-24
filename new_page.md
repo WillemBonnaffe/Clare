@@ -57,7 +57,10 @@
 						]
 						},
 					axisX: {
-        					title: "X Axis Title",
+        					title: {
+							display: true,
+							text: "X Axis Title",
+							}
       						},
 					options: {
 						title: {
