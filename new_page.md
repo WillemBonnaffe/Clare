@@ -56,12 +56,6 @@
 							}
 						]
 						},
-					axisX: {
-        					title: {
-							display: true,
-							text: "X Axis Title",
-							}
-      						},
 					options: {
 						title: {
 				    		display: true,
@@ -71,6 +65,9 @@
 						    display: true
 					},
 					scales: {
+					    title: {
+						display: true,
+						}
 					    xAxes: [
 						{
 						    ticks: {
