@@ -25,6 +25,7 @@ for(BNF in BNFVector)
 	{
 		predictions__ = predictions_[1:binSize+binSize*(k-1),-1]
 		predictions__ = apply(predictions__,2,sum)
+		predictions__ = c(k,predictions__[-1])
 		predictions_binned = rbind(predictions_binned,predictions__) 
 	}
 
