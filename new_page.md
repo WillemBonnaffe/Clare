@@ -69,7 +69,7 @@
 						{
 						    ticks: {
 							suggestedMin: minX,
-							label: 'test', 
+							title: 'test', 
 					    }
 					}
 				    ]
