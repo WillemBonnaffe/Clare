@@ -66,7 +66,8 @@
 					},
 					scales: {
 					    title: {
-						display: true,
+					    display: true,
+						text: title,
 						}
 					    xAxes: [
 						{
