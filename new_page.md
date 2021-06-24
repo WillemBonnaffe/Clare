@@ -41,6 +41,9 @@
 					
 				chart = new Chart('chart', {
 			    		type: 'bar',
+					axisX:{
+  						title : "Primary X Axis"
+ 						},
 					    data: {
 						labels: dayLabel,
 						datasets: [
@@ -72,7 +75,7 @@
 					    }
 					}
 				    ]
-				}
+				}	
 			    }
 			});
 		
