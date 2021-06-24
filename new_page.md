@@ -56,6 +56,9 @@
 							}
 						]
 						},
+					axisX: {
+        					title: "X Axis Title",
+      						},
 					options: {
 						title: {
 				    		display: true,
