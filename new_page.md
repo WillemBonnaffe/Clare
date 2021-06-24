@@ -65,15 +65,17 @@
 						    display: true
 					},
 					scales: {
+						titles: {
+							display: true,
+						}
 					    xAxes: [
 						{
 						    ticks: {
 							suggestedMin: minX,
-							title: 'test', 
 					    }
 					}
 				    ]
-				}
+				}	
 			    }
 			});
 		
