@@ -65,10 +65,6 @@
 						    display: true
 					},
 					scales: {
-					    title: {
-					    display: true,
-						text: title,
-						}
 					    xAxes: [
 						{
 						    ticks: {
