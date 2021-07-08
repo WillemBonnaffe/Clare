@@ -65,6 +65,10 @@
 						    display: true
 					},
 					scales: {
+						title: {
+						display: true,
+						    text: 'test',
+					},
 					    xAxes: [
 						{
 						    ticks: {
