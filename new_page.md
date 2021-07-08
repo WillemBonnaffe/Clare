@@ -65,12 +65,13 @@
 						    display: true
 					},
 					scales: {
-					   	 yAxes: [{
-      							scaleLabel: {
-        							display: true,
-       								labelString: 'probability'
-      								}
-    						}]
+					   yAxes: [
+						{
+      						    scaleLabel: {
+        						display: true,
+       							labelString: 'probability'
+      					    }
+    					    }]
 					    xAxes: [
 						{
 						    ticks: {
