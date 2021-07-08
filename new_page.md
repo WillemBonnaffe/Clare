@@ -57,7 +57,7 @@
 						]
 						},
 					options: {
-						hAxis: {title: 'Xm'},
+						hAxis: {display: true, title: 'Xm'},
 						title: {
 				    		display: true,
 						    text: title,
