@@ -1,0 +1,91 @@
+V1 V2
+Atomoxetine HCl_Cap 40mg 0403040W0AAALAL
+Atomoxetine 40mg capsules 0403040Z0AAAAAA
+Atomoxetine HCl_Cap 25mg 0404000M0BDAAAM
+Atomoxetine 25mg capsules 0404000M0BCAEAQ
+Concerta_XL Tab 36mg 0404000M0BGAEAQ
+Concerta XL 36mg tablets 0404000M0BCADAU
+Concerta_XL Tab 27mg 0404000M0BGADAU
+Concerta XL 27mg tablets 0402010ADAAAGAG
+Equasym XL_Cap 30mg 0401010ADAAAAAA
+Equasym XL 30mg capsules 0401010ADBBAAAA
+Venlafaxine_Tab 225mg M/R 0408010F0AAABAB
+Venlafaxine 225mg modified-release tablets 0403030Q0AAABAB
+Agomelatine_Tab 25mg 0403040W0AAABAB
+Agomelatine 25mg tablets 0403030E0AAAEAE
+Concerta_XL Tab 18mg 0404000M0AAAAAA
+Concerta XL 18mg tablets 0403030Q0AAAAAA
+Equasym XL_Cap 20mg 040201060AAALAL
+Equasym XL 20mg capsules 0401020P0AAABAB
+Medikinet XL_Cap 20mg 0403040W0AAAKAK
+Medikinet XL 20mg capsules 0407042F0AAAAAA
+Equasym XL_Cap 10mg 040201030AAACAC
+Equasym XL 10mg capsules 0402010ABAAAKAK
+Medikinet XL_Cap 10mg 0402010ABAAADAD
+Medikinet XL 10mg capsules 0404000M0AAAJAJ
+Aripiprazole_Oral Soln 5mg/5ml 0403040W0AAAAAA
+Aripiprazole 1mg/ml oral solution 040201030AAAAAA
+Melatonin_Tab 2mg M/R 0403040X0AAANAN
+Melatonin 2mg modified-release tablets 0403040X0AAAPAP
+Circadin_Tab 2mg M/R 0403040Y0AAABAB
+Circadin 2mg modified-release tablets 040201060AAACAC
+Clonazepam_Tab 500mcg 040201030AAABAB
+Clonazepam 500microgram tablets 0403040X0AAAAAA
+Sertraline HCl_Tab 100mg 0402010ABAAACAC
+Sertraline 100mg tablets 0403040W0AAAJAJ
+Venlafaxine_Tab 75mg 040201030AAAKAK
+Venlafaxine HCl_Tab 75mg 0304010W0AAALAL
+Fluoxetine HCl_Cap 60mg 0402010ABAAAFAF
+Fluoxetine 60mg capsules 040201060AAABAB
+Methylphenidate HCl_Tab 10mg 0403030E0AAACAC
+Methylphenidate 10mg tablets 0409020S0AAAEAE
+Sertraline HCl_Tab 50mg 040201060AAAAAA
+Sertraline 50mg tablets 0403030E0AAANAN
+Olanzapine_Tab 15mg 0403040Y0AAAAAA
+Olanzapine 15mg tablets 0402010ADAAABAB
+Lorazepam_Tab 1mg 040201060AAADAD
+Lorazepam 1mg tablets 0408010H0AAAAAA
+Venlafaxine_Tab 150mg M/R 0402010ADAAAAAA
+Venlafaxine 150mg modified-release tablets 0402010ADAAADAD
+Clonidine HCl_Tab 25mcg 0401010Z0AAACAC
+Clonidine 25microgram tablets 0401010Z0AAAAAA
+Risperidone_Tab 3mg 0402010ABAAABAB
+Risperidone 3mg tablets 0403010X0AAAAAA
+Quetiapine_Tab 300mg 040201030AAAEAE
+Quetiapine 300mg tablets 0402030K0AAAFAF
+Quetiapine_Tab 200mg 0402030K0BFAAAF
+Quetiapine 200mg tablets 0403030D0AAAAAA
+Methylphenidate HCl_Tab 5mg 0408010H0AAABAB
+Methylphenidate 5mg tablets 0403030E0AAAAAA
+Venlafaxine_Tab 37.5mg 0408010AEAAABAB
+Venlafaxine HCl_Tab 37.5mg 0403030D0AAABAB
+Risperidone_Tab 1mg 0401020K0AAAIAI
+Risperidone 1mg tablets 0401020K0AAAHAH
+Mirtazapine_Tab 15mg 0202020L0AABDBD
+Mirtazapine 15mg tablets 0408010H0AAACAC
+Mirtazapine_Tab 45mg 0402030K0AAAIAI
+Mirtazapine 45mg tablets 090402000BBRRA0
+Duloxetine HCl_Cap G/R 60mg 0402010AIAAACAC
+Duloxetine 60mg gastro-resistant capsules 0402010ABAAAXAX
+Olanzapine_Tab 10mg 0404000U0AAABAB
+Olanzapine 10mg tablets 0404000S0AAACAC
+Risperidone_Tab 2mg 0402010ABAAAVAV
+Risperidone 2mg tablets 0404000M0BGAFAV
+Mirtazapine_Tab 30mg 0404000M0AAAKAK
+Mirtazapine 30mg tablets 0403040W0AAAEAE
+Quetiapine_Tab 100mg 040201030AAADAD
+Quetiapine 100mg tablets 0402010A0AAABAB
+Venlafaxine_Tab 75mg M/R 0403030X0AAAAAA
+Venlafaxine 75mg modified-release tablets 0411000D0AAABAB
+Risperidone_Tab 500mcg 0601022B0AAABAB
+Risperidone 500microgram tablets 0408010AEAAAEAE
+Promethazine HCl_Tab 25mg 0408010AEAAACAC
+Promethazine hydrochloride 25mg tablets 0408010AEAAAAAA
+Quetiapine_Tab 150mg 0404000U0AAADAD
+Quetiapine 150mg tablets 0404000U0BCAAAB
+Olanzapine_Tab 7.5mg 0402010A0AAAGAG
+Olanzapine 7.5mg tablets 0106040M0BCACAA
+Fluoxetine HCl_Oral Soln 20mg/5ml 0202030S0AAATAT
+Fluoxetine 20mg/5ml oral solution 0403030D0AAACAC
+Procyclidine HCl_Tab 5mg 0103050P0AAAAAA
+Procyclidine 5mg tablets 0402030K0BFABAI

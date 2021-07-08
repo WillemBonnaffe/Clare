@@ -40,6 +40,6 @@ for(BNF in BNFVector)
 	DrugName_ = gsub(x=DrugName_,pattern="/",replacement="_") 
 	predictions_ = predictions_binned
 	colnames(predictions_) = c("time","Y","Ybar","Ybar_lo","Ybar_hi")
-	# write.table(predictions_,paste("individual_drugs/",BNF,".csv",sep=""),sep=",",row.names=FALSE,quote=FALSE)
-	write.table(predictions_,paste("individual_drugs_6monthly/",DrugName_,".csv",sep=""),sep=",",row.names=FALSE,quote=FALSE)
+	write.table(predictions_,paste("individual_drugs_6monthly/",BNF,".csv",sep=""),sep=",",row.names=FALSE,quote=FALSE)
+	# write.table(predictions_,paste("individual_drugs_6monthly/",DrugName_,".csv",sep=""),sep=",",row.names=FALSE,quote=FALSE)
 }
