@@ -57,6 +57,7 @@
 						]
 						},
 					options: {
+						hAxis: {title: 'Xm'},
 						title: {
 				    		display: true,
 						    text: title,
@@ -65,12 +66,6 @@
 						    display: true
 					},
 					scales: {
-						yAxes: [
-						title: {
-						display: true,
-						    text: 'test',
-					},
-					]
 					    xAxes: [
 						{
 						    ticks: {
