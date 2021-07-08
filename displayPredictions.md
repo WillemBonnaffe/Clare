@@ -17,7 +17,6 @@
 			<optionvalue="Atomoxetine_40mg_capsules">Atomoxetine_40mg_capsules</option>
 			<optionvalue="Atomoxetine_HCl_Cap_25mg">Atomoxetine_HCl_Cap_25mg</option>
 			<optionvalue="Atomoxetine_HCl_Cap_40mg">Atomoxetine_HCl_Cap_40mg</option>
-			<optionvalue="Circadin_2mg_modified-release_tablets">Circadin_2mg_modified-release_tablets</option>
 			<optionvalue="Circadin_Tab_2mg_M_R">Circadin_Tab_2mg_M_R</option>
 			<optionvalue="Clonazepam_500microgram_tablets">Clonazepam_500microgram_tablets</option>
 			<optionvalue="Clonazepam_Tab_500mcg">Clonazepam_Tab_500mcg</option>
@@ -29,7 +28,6 @@
 			<optionvalue="Concerta_XL_Tab_18mg">Concerta_XL_Tab_18mg</option>
 			<optionvalue="Concerta_XL_Tab_27mg">Concerta_XL_Tab_27mg</option>
 			<optionvalue="Concerta_XL_Tab_36mg">Concerta_XL_Tab_36mg</option>
-			<optionvalue="Duloxetine_60mg_gastro-resistant_capsules">Duloxetine_60mg_gastro-resistant_capsules</option>
 			<optionvalue="Duloxetine_HCl_Cap_G_R_60mg">Duloxetine_HCl_Cap_G_R_60mg</option>
 			<optionvalue="Equasym_XL_10mg_capsules">Equasym_XL_10mg_capsules</option>
 			<optionvalue="Equasym_XL_20mg_capsules">Equasym_XL_20mg_capsules</option>
@@ -47,7 +45,6 @@
 			<optionvalue="Medikinet_XL_20mg_capsules">Medikinet_XL_20mg_capsules</option>
 			<optionvalue="Medikinet_XL_Cap_10mg">Medikinet_XL_Cap_10mg</option>
 			<optionvalue="Medikinet_XL_Cap_20mg">Medikinet_XL_Cap_20mg</option>
-			<optionvalue="Melatonin_2mg_modified-release_tablets">Melatonin_2mg_modified-release_tablets</option>
 			<optionvalue="Melatonin_Tab_2mg_M_R">Melatonin_Tab_2mg_M_R</option>
 			<optionvalue="Methylphenidate_10mg_tablets">Methylphenidate_10mg_tablets</option>
 			<optionvalue="Methylphenidate_5mg_tablets">Methylphenidate_5mg_tablets</option>
@@ -87,9 +84,6 @@
 			<optionvalue="Sertraline_50mg_tablets">Sertraline_50mg_tablets</option>
 			<optionvalue="Sertraline_HCl_Tab_100mg">Sertraline_HCl_Tab_100mg</option>
 			<optionvalue="Sertraline_HCl_Tab_50mg">Sertraline_HCl_Tab_50mg</option>
-			<optionvalue="Venlafaxine_150mg_modified-release_tablets">Venlafaxine_150mg_modified-release_tablets</option>
-			<optionvalue="Venlafaxine_225mg_modified-release_tablets">Venlafaxine_225mg_modified-release_tablets</option>
-			<optionvalue="Venlafaxine_75mg_modified-release_tablets">Venlafaxine_75mg_modified-release_tablets</option>
 			<optionvalue="Venlafaxine_HCl_Tab_75mg">Venlafaxine_HCl_Tab_75mg</option>
 			<optionvalue="Venlafaxine_Tab_150mg_M_R">Venlafaxine_Tab_150mg_M_R</option>
 			<optionvalue="Venlafaxine_Tab_225mg_M_R">Venlafaxine_Tab_225mg_M_R</option>
@@ -141,6 +135,15 @@
 						    display: true
 					},
 					scales: {
+					    yAxes: [
+						{
+						    display: true,
+          					    scaleLabel: {
+           						 display: true,
+           						 labelString: 'Total quantity prescribed'
+         					 },
+					}
+				    ]
 					    xAxes: [
 						{
 						    display: true,
