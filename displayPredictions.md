@@ -59,13 +59,10 @@
 			<optionvalue="Mirtazapine_Tab_15mg">Mirtazapine_Tab_15mg</option>
 			<optionvalue="Mirtazapine_Tab_30mg">Mirtazapine_Tab_30mg</option>
 			<optionvalue="Mirtazapine_Tab_45mg">Mirtazapine_Tab_45mg</option>
-			<optionvalue="NA">NA</option>
 			<optionvalue="Olanzapine_10mg_tablets">Olanzapine_10mg_tablets</option>
 			<optionvalue="Olanzapine_15mg_tablets">Olanzapine_15mg_tablets</option>
-			<optionvalue="Olanzapine_7.5mg_tablets">Olanzapine_7.5mg_tablets</option>
 			<optionvalue="Olanzapine_Tab_10mg">Olanzapine_Tab_10mg</option>
 			<optionvalue="Olanzapine_Tab_15mg">Olanzapine_Tab_15mg</option>
-			<optionvalue="Olanzapine_Tab_7.5mg">Olanzapine_Tab_7.5mg</option>
 			<optionvalue="Procyclidine_5mg_tablets">Procyclidine_5mg_tablets</option>
 			<optionvalue="Procyclidine_HCl_Tab_5mg">Procyclidine_HCl_Tab_5mg</option>
 			<optionvalue="Promethazine_HCl_Tab_25mg">Promethazine_HCl_Tab_25mg</option>
@@ -93,11 +90,9 @@
 			<optionvalue="Venlafaxine_150mg_modified-release_tablets">Venlafaxine_150mg_modified-release_tablets</option>
 			<optionvalue="Venlafaxine_225mg_modified-release_tablets">Venlafaxine_225mg_modified-release_tablets</option>
 			<optionvalue="Venlafaxine_75mg_modified-release_tablets">Venlafaxine_75mg_modified-release_tablets</option>
-			<optionvalue="Venlafaxine_HCl_Tab_37.5mg">Venlafaxine_HCl_Tab_37.5mg</option>
 			<optionvalue="Venlafaxine_HCl_Tab_75mg">Venlafaxine_HCl_Tab_75mg</option>
 			<optionvalue="Venlafaxine_Tab_150mg_M_R">Venlafaxine_Tab_150mg_M_R</option>
 			<optionvalue="Venlafaxine_Tab_225mg_M_R">Venlafaxine_Tab_225mg_M_R</option>
-			<optionvalue="Venlafaxine_Tab_37.5mg">Venlafaxine_Tab_37.5mg</option>
 			<optionvalue="Venlafaxine_Tab_75mg">Venlafaxine_Tab_75mg</option>
 			<optionvalue="Venlafaxine_Tab_75mg_M_R">Venlafaxine_Tab_75mg_M_R</option>
   		</select>
