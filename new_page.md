@@ -65,12 +65,12 @@
 						    display: true
 					},
 					scales: {
-						y: {
+						yAxes: [
 						title: {
 						display: true,
 						    text: 'test',
 					},
-					},
+					]
 					    xAxes: [
 						{
 						    ticks: {
