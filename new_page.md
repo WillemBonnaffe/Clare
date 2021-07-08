@@ -57,7 +57,6 @@
 						]
 						},
 					options: {
-						hAxis: {display: true, title: 'Xm'},
 						title: {
 				    		display: true,
 						    text: title,
@@ -66,6 +65,12 @@
 						    display: true
 					},
 					scales: {
+					   	 yAxes: [{
+      							scaleLabel: {
+        							display: true,
+       								labelString: 'probability'
+      								}
+    						}]
 					    xAxes: [
 						{
 						    ticks: {
