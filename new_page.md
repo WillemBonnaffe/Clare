@@ -65,14 +65,14 @@
 						    display: true
 					},
 					scales: {
-					   yAxes: [
-						{
-      						    title: {
-        						display: true,
-       							text: 'probability',
-      					    }
-    					    }
-					    ]
+					  // yAxes: [
+						//{
+      						//    title: {
+        					//	display: true,
+       						//	text: 'probability',
+      					  //  }
+    					    //}
+					   // ]
 					    xAxes: [
 						{
 						    ticks: {
