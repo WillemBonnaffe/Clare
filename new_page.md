@@ -65,12 +65,22 @@
 						    display: true
 					},
 					scales: {
-						title: {
-						display: true,
-						    text: 'test',
-					},
+					    yAxes: [
+						{
+						    display: true,
+          					    scaleLabel: {
+           						 display: true,
+           						 labelString: 'Total quantity prescribed'
+         					 },
+					}
+				    ]
 					    xAxes: [
 						{
+						    display: true,
+          					    scaleLabel: {
+           						 display: true,
+           						 labelString: 'Period'
+         					 },
 						    ticks: {
 							suggestedMin: minX,
 					    }
