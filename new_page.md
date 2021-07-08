@@ -69,7 +69,7 @@
 						{
       						    scaleLabel: {
         						display: true,
-       							labelString: 'probability'
+       							labelString: 'probability',
       					    }
     					    }]
 					    xAxes: [
