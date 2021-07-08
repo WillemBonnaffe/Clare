@@ -67,6 +67,11 @@
 					scales: {
 					    xAxes: [
 						{
+						    display: true,
+          					    scaleLabel: {
+           						 display: true,
+           						 labelString: 'Date'
+         					 },
 						    ticks: {
 							suggestedMin: minX,
 					    }
