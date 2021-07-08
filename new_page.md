@@ -65,9 +65,11 @@
 						    display: true
 					},
 					scales: {
+						y: {
 						title: {
 						display: true,
 						    text: 'test',
+					},
 					},
 					    xAxes: [
 						{
